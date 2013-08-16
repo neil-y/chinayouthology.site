@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+/*
+Author: jibin
+Author URI: http://www.houjibin.com/
+Author mail: gagucooper@gmail.com
+Version: 1.0
+Last Updated: 2013-05-30
+-------------------------------------------------------------- */
+
+
+/* 2.2.7 ansys
+--------------------------- */
+.smod {
+	border: 1px solid #B56703;
+	background: #FEFAEF;
+	border-radius: 5px;
+	box-shadow: 1px 2px 3px #ccc;
+}
+.smod .shd {
+	font-size: 16px;
+	height: 33px;
+	line-height: 33px;
+	overflow: hidden;
+	color: #fff;
+	background: url(../images/ansys/bg-smod.png) repeat-x top center;
+}
+.smod .shd h2 {
+	float: left;
+	background: url(../images/ansys/hd-smod.png) no-repeat top right;
+	height: 34px;
+	line-height: 34px;
+	overflow: hidden;
+	position: relative;
+	top: -1px;
+	padding: 0 50px 0 15px;
+}
+.smod .shd span {
+	font-size: 14px;
+	padding-left: 30px;
+}
+.smod .shd span a {
+	color: #fff;
+}
+.smod .shd span a:hover {
+	color: #fc0;
+}
+.smod .sbd {
+	padding: 15px 11px;
+}
+
+.ansys-swf {
+	width: 510px;
+}
+.ansys-login {
+	width: 458px;
+}
+.ansys-loginbox {
+	border: 1px dashed #ccc;
+	background: #fff;
+	margin-top: 10px;
+}
+.phone {
+    line-height: 32px;
+}
+.phone h3 {
+    color: #0066AA;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+.phone p .red {
+    color: #CC0000;
+}
+.phone p a {
+    color: #0066AA;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 8px;
+}
+.phone p a:hover {
+    color: #CC0000;
+}
+.phone div {
+    background: none;
+    border: 0 solid;
+    height: 28px;
+    margin: 10px 0;
+}
+.ie6 .phone div {
+    margin: 4px 0;
+}
+.phone span {
+    display: block;
+    height: 28px;
+}
+.phone .title {
+    color: #333;
+    display: block;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+.phone .cone {
+    display: block;
+    float: left;
+}
+.button {
+    background: url("../images/ansys/imgbutton.gif") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 33px;
+    width: 180px;
+}
+.tishi {
+    border-top: 1px dashed #aaa;
+    line-height: 25px;
+    padding: 10px 0 0 80px;
+}
+
+.ad-ansys {
+	padding: 10px 0;
+}
+.soft-info {
+	text-indent: 2em;
+	color: #666;
+	font-size: 14px;
+	line-height: 180%;
+}
+.phone-wrap a {
+	float: left;
+	padding: 0 5px;
+}
+.sfeature-pic img {
+	float: left;
+	margin: 10px 10px 10px;
+}
+.step-pic img {
+	border: 4px solid #F1E1C0;
+	border-radius: 3px;
+	float: left;
+	margin: 10px 15px 10px;
+}
+
+/* software download */
+.classtitle {
+    background-color: #F6EACE;
+    color: #723300;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 10px;
+    text-align: left;
+}
+.shipin a {
+    color: #723300;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+/* online tutor */
+.online-tutor .ui-tabs a {
+    width: auto;
+    padding: 0 8px;
+}
+.online-tutor .ui-tabs-panes-wrap {
+	padding-bottom: 20px;
+}
+
+/* online tutor */
+.tutor-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #980000;
+    text-align: center;
+    padding-top: 10px;
+}
+.tutor-title2 {
+    font-size:14px;
+    height:30px;
+    line-height:30px;
+    margin-top:5px;
+    font-weight:bold;
+    color: #792600;
+}
+.tutor-pic dl {
+    float: left;
+    margin: 10px 25px;
+    overflow: hidden;
+    width: 179px;
+}
+.tutor-pic img {
+    border: 2px solid #999;
+    height: 237px;
+    margin: 0;
+    padding: 0;
+    width: 175px;
+}
+.tutor-pic img.zhuanzhang {
+    border: 2px solid #999;
+    height: 96px;
+    margin: 0;
+    padding: 0;
+    width: 175px;
+}
+.online .tutor-pic dt, .online .tutor-pic dd, .tutor-pic dt, .tutor-pic dd {
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 175px;
+    font-size: 12px;
+    color: #333;
+}
+#tabs-6, #tabs-6 *, #tabs-7, #tabs-7 *, #tabs-8, #tabs-8 *, #tabs-9, #tabs-9 * {
+    font-size: 12px;
+    line-height: 20px;
+}
+#tabs-6 img, #tabs-7 img {
+    border: medium none;
+    height: 55px;
+    width: 192px;
+}
+
+/* guide variety */
+.guide-variety a {
+    width: 120px;
+}
+a.gone {
+    background: url(../images/bg-common.png) repeat-x 0 -302px;
+    color: #000;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    width: 120px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    left: 363px;
+}
+a.gone:hover {
+    background: url(../images/bg-common.png) repeat-x 0 -336px;
+    text-decoration: none;
+}
+.glast {
+    margin-left: 120px;
+}
+
+/* guide notice */
+.guide-notice .ui-tabs a {
+    padding: 0 20px;
+    width: 100px;
+}
+.guide-notice .ui-tabs2 a {
+    padding: 0 15px;
+}
+
+/* study list */
+.study-list {
+    border: 1px double #F0DDB0;
+    border-radius: 3px;
+    background: #F2E0B7;
+    line-height: 23px;
+    padding: 8px 0 5px;
+    margin-top: 20px; 
+}
+.study-list dl dt {
+    background: url(../images/tree.default.jpg) no-repeat  20px center;
+    cursor: pointer;
+    margin: 10px 0;
+    padding-left: 30px;
+}
+.study-list dl dt h3 {
+    color: #792600;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: normal;
+}
+.study-list dl dd {
+    background: #F6F7F8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px 20px;
+    padding: 10px;
+}
+.study-list dl dd ul.first-level li {
+    background: url(../images/tree.default.jpg) no-repeat  10px center;
+    padding-left: 20px;
+}
+.study-list dl dt.hover {
+    color: #C5000C;
+}
+.second-level h4 {
+    background: url(../images/tree.default.jpg) no-repeat  10px center;
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.second-level ul li {
+    background: url(../images/tree.default.jpg) no-repeat  20px center;
+    padding-left: 30px;
+}

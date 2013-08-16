@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<!--[if IE 6]><html class="ie6 ielt9 no-css3 no-js lte7" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 7]><html class="ie7 ielt9 no-css3 no-js lte7" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="ie8 ielt9 no-css3 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 9]><html class="ie9 ielt9 no-css3 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8) | !(IE 9) ]><!--><html lang="en" dir="ltr" class="no-js"><!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>open youthology - China Youthology</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/screen.css" />
+<!--[if IE]>
+<script src="js/ie/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<style type="text/css">.css3{behavior: url(js/ie/css3.htc);-pie-lazy-init: true; position: relative;}.ie6png{-pie-png-fix: true;}</style>
+<script src="js/ie/ie9.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+<script src="js/ie/png.js"></script>
+<script>DD_belatedPNG.fix('.pngfix, .pngfix img');</script>
+<![endif]-->
+<script src="js/ie/modernizr.js"></script>
+<script src="js/jquery/jquery.js"></script>
+<script>
+var timeout         = 0;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+function Subnav_open()
+{	Subnav_canceltimer();
+	Subnav_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+function Subnav_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+function Subnav_timer()
+{	closetimer = window.setTimeout(Subnav_close, timeout);}
+function Subnav_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+$(document).ready(function()
+{	$('#nav > ul > li').bind('mouseover', Subnav_open);
+	$('#nav > ul > li').bind('mouseout',  Subnav_timer);});
+document.onclick = Subnav_close;
+</script>
+</head>
+<body>
+<div class="wrap-youthology wrapper cf">
+	<div class="gridsystem cf">
+
+
+		<header id="header" class="cf">
+	    	<h1 id="logo">
+	    		<a href="index.html">
+	    			<img src="images/logo.png" alt="青年志 - China Youthology" title="青年志 - China Youthology" />
+	    		</a>
+	    	</h1>
+	        <nav id="nav">
+	        	<ul>
+	        		<li><a href="index.html">HOME</a></li>
+	        		<li><a href="about.html">ABOUT</a></li>
+	        		<li><a href="approach.html">APPROACH</a></li>
+	        		<li><a href="services.html">SERVICES</a></li>
+	        		<li><a href="cases.html">CASES</a></li>
+	        		<li><a href="insights.html">INSIGHTS</a></li>
+	        		<li><a class="acitve" href="openyouthology.html">OPEN  YOUTHOLOGY</a></li>
+	        		<li><a href="contact.html">CONTACT</a>
+						<ul>
+							<li><a href="careers.html">CAREERS</a></li>
+						</ul>
+	        		</li>
+	        	</ul>
+	        </nav>
+	    </header><!-- //header -->
+
+
+		<div id="container" class="cf">
+
+			<div class="youthology title-youthology">
+		    	<h2>China Youthology's open work spaces are created to offer activity and event space<br />for Open Youthology initiatives.</h2>
+				<img src="images/icon-rain.png" alt="rain" />
+			</div><!-- /youthology -->
+
+			<div class="banner-shadow banner1 cf">
+				<div class="banner-wrap cf">
+					<div id="idTransformView" class="banner">
+				        <ul id="idSlider" class="slider">
+							<li><a href="#"><img src="images/banner/banner1-1.jpg" alt="banner1-1" /></a></li>
+							<li><a href="#"><img src="images/banner/banner1-1.jpg" alt="banner1-1" /></a></li>
+							<li><a href="#"><img src="images/banner/banner1-1.jpg" alt="banner1-1" /></a></li>
+							<li><a href="#"><img src="images/banner/banner1-1.jpg" alt="banner1-1" /></a></li>
+						</ul>
+						<div id="idNum" class="num">
+							<ul>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>				
+			</div><!-- /banner -->
+
+			<div class="youthology-info">					
+				<p>Open Youthology is our platform and process that generates, collects, curates and shares youth stories with the youth community. It allows us to play a role in youth culture, build trust with youth, go deeper into their lives, and connect with the new ideas and peoples that influence Chinese youth today.</p>
+				<p>Open Youthology acts as youth inspiration media, fulfilling China Youthology's expectation for impact to youth: sharing provocative insights to Chinese youth to inspire discovery and encouraging them to act on their life meanings.</p>
+				<h3>Open Youthology is focused on being:</h3>
+				<ul>
+					<li>• Inspirational - not only creative, but with the purpose of opening minds, offering alternative ideas & actions, arousing questions on life meanings.</li>
+					<li>• Relevant - addressing real life tensions, introducing relatable role models, and offering tips & steps that youth can truly say "I can DO/TRY that."</li>
+					<li>• Amplification - working to make the pre-existing youth voice heard louder, not trying to speak for the youth nor champion only one perspective of the youth.</li>
+				</ul>
+				<p>OpenYouthology.com houses many of the youth stories collected from these activities, with the purpose of sharing and amplifying the great youth stories and inspirations that pioneer Chinese youth culture.</p>
+				<div class="cf">
+					<a href="#" class="btn-large btn-large1">To explore OpenYouthology.com</a>
+					<a href="#" class="btn-large btn-large2">Follow our OpenYouthology Chinese weibo to get daily update about youth!</a>
+				</div>
+			</div><!-- /youthology info -->
+			
+			<div class="youthology-event cf">
+				<div class="event1">			
+					<div class="title-youthology">
+				    	<h2> Open Youthology Events</h2>
+						<img src="images/icon-rain.png" alt="rain" />
+					</div>
+					<p>Open Youthology has developed numerous recurring, popular events that share a variety of youth stories to the community. Creative to consumption to social innovation, Open Youthology events are designed to stimulate and inspire youth from all walks of life.</p>
+					<dl>
+						<dt>Here is a short list of some of our most successful and well-known events:</dt>
+						<dd>• Butter Youth Conference</dd>
+						<dd>• Youth salon</dd>
+						<dd>• China Youth day</dd>
+					</dl>
+				</div>
+				<div class="event2">	
+					<p>To learn more about Youthology spaces and participating in Open Youthology events.</p>
+					<div class="cf">
+						<a href="#" class="btn-large btn-large3">Download this brochure</a>
+					</div>					
+				</div>
+			</div>
+
+		</div><!-- //container -->
+
+
+	</div><!-- //main -->
+
+
+	<footer id="footer" class="wrapper cf">
+		<div class="gridsystem cf">
+	    	<div id="footer-links" class="mb-25 cf">
+	    		<div class="grid-270 fl">
+		    		<dl>
+		    			<dt>Services</dt>
+		    			<dd><a href="#">Brand Diagnosis</a></dd>
+						<dd><a href="#">Category Innovation</a></dd>
+						<dd><a href="#">Key Campaign Message</a></dd>
+						<dd><a href="#">Key Message Expression</a></dd>
+						<dd><a href="#">Campaign Touch Points</a></dd>
+						<dd><a href="#">Product & Service Innovation</a></dd>
+						<dd><a href="#">Strategy Quick Check</a></dd>
+						<dd><a href="#">Concept Test</a></dd>
+						<dd><a href="#">Trend Presentation</a></dd>
+						<dd><a href="#">Immersions & Signals</a></dd>
+						<dd><a href="#">Co-Creation Workshop</a></dd>
+		    		</dl>
+	    		</div>
+	    		<div class="grid-270 fl">
+		    		<dl class="mb-25">
+		    			<dt>Approach</dt>
+		    			<dd><a href="#">Youth Insider</a></dd>
+						<dd><a href="#">Think Culturally</a></dd>
+						<dd><a href="#">Insight to Impact</a></dd>
+		    		</dl>
+		    		<dl>
+		    			<dt>Contact</dt>
+		    			<dd><a href="#">New Business</a></dd>
+						<dd><a href="#">Media</a></dd>
+						<dd><a href="#">Space & Events</a></dd>
+						<dd><a href="#">Careers</a></dd>
+		    		</dl>
+	    		</div>
+	    		<div class="grid-250 fl">
+					<div class="featured cf">
+						<dl>
+			    			<dt>Featured Insights</dt>
+			    			<dd><a href="#"><img src="images/footer/footer1.jpg" alt="footer1" /></a></dd>
+							<dd><a href="#"><img src="images/footer/footer2.jpg" alt="footer2" /></a></dd>
+							<dd><a href="#"><img src="images/footer/footer3.jpg" alt="footer3" /></a></dd>
+							<dd><a href="#"><img src="images/footer/footer4.jpg" alt="footer4" /></a></dd>
+			    		</dl>
+					</div>
+	    		</div>
+	    	</div>
+	    	<div id="copyright" class="cf">
+	    		<p>A company of the Aricent Group<br />All right reserved.<span class="en">&copy;</span>2013 frog design inc</p>
+	    		<ul>
+	        		<li><a href="about.html">ABOUT</a></li>
+	        		<li><a href="approach.html">APPROACH</a></li>
+	        		<li><a href="services.html">SERVICES</a></li>
+	        		<li><a href="cases.html">CASES</a></li>
+	        		<li><a href="insights.html">INSIGHTS</a></li>
+	        		<li><a href="contact.html">CONTACT</a></li>
+	        	</ul>
+	    	</div>
+    	</div>
+	</footer><!-- //footer -->
+
+
+</div><!-- //page -->
+
+<script type="text/javascript" src="js/banner.js"></script>
+</body>
+</html>
