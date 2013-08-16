@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 	
-    <title>民泰后台管理系统</title>
+    <title>青年志后台管理系统</title>
 	
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -39,7 +39,7 @@
     <link rel="apple-touch-icon-precomposed" href="/resources/assets/ico/apple-touch-icon-57-precomposed.png">
 	
 	<?php
-		$employer = $this->session->userdata('employer');
+		$user = $this->session->userdata('user');
 	?>	
   </head>
 
@@ -49,14 +49,14 @@
 	<div id="header" class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container-fluid">
-				<a class="brand" href="/admin">民泰后台管理系统</a>
+				<a class="brand" href="/admin">青年志后台管理系统</a>
 
 				<div class="btn-toolbar pull-right">
 				
 			
 				<div class="btn-group">
 					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-					<i class="icon-user-1"></i><?php echo $employer['username'];?>
+					<i class="icon-user-1"></i><?php echo $user['username'];?>
 						<span class="caret"></span>
 					</a>
 					

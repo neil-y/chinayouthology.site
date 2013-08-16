@@ -41,17 +41,11 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+$route['insights/(:num)'] = "insights/detail/$1";
+
 $route['admin/signin'] = "admin/welcome/signin";
 $route['admin/signin_do'] = "admin/welcome/signin_do";
 $route['admin/signout'] = "admin/welcome/signout";
-$route['WEB/MobileApp_android.html'] = "item/show/app_android";
-$route['WEB/MobileApp_ios.html'] = "item/show/app_ios";
-$route['web/pages/cpmm/Default.aspx'] = "item/show/trader_trader";
-
-$route['partner'] = "admin/partner/index";
-$route['partner/signin'] = "admin/partner/signin";
-$route['partner/signin_do'] = "admin/partner/signin_do";
-$route['partner/signout'] = "admin/partner/signout";
 //$route['WEB/ArticleShow.aspx?ID=(:num)'] = "WEB/ArticleShow/$1";
 //$route['WEB/ArticleShow.aspx?ID=11903'] = "news/xyshow/352";
 //$route['WEB/ArticleShow.aspx?ID=110907'] = "news/xyshow/354";

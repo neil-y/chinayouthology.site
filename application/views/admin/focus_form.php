@@ -1,9 +1,9 @@
 <div class="widget_container span10">
 				<div class="well nomargin">
 					<ul class="breadcrumbs-custom in-well">
-						<li><a href="javascript:void(0);">焦点图管理</a></li>
+						<li><a href="javascript:void(0);">文件管理</a></li>
 						 <li class="active">
-							添加焦点图
+							添加文件
 						</li>
 					</ul>
 				</div>
@@ -23,19 +23,23 @@
 								</div>
 							</div>
 
+							<label>文件位置</label>
+							<select name="type" id="ty">
+								<option value="2">insights详情焦点图</option>
+								<option value="3">普通文件</option>
+								<option value="0">insights焦点图</option>
+								<option value="1">openyouthology焦点图</option>
+							</select>
+							<br/>
 							<label>标题</label>
 							<input type="text" class="input-xlarge-fluid" name="title" value=""/>							
 							<label>链接</label>
-
-							<input type="text" class="input-xlarge-fluid" name="focus_url" value=""/>							
-							<label>上传图片</label>
+							<input type="text" class="input-xlarge-fluid" name="url" value=""/>							
+							<label>报告ID</label>
+							<input type="text" class="input-xlarge-fluid" name="in_id" value=""/>							
+							<label>上传文件</label>
 
 							<input type="file" class="input-xlarge-fluid" name="userfile"/>							
-
-							<br/>	
-							<label>状态</label>
-							<input type="radio" class="input-xlarge-fluid" name="status" value="yes" />发表
-							<input type="radio" class="input-xlarge-fluid" name="status" /> 存档			
 
 				<br/>
 				<br/>

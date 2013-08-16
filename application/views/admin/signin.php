@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>民泰后台管理系统</title>
+		<title>青年志后台管理系统</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -30,17 +30,17 @@
 					<div class="navbar navbar-static navbar_as_heading">
 						<div class="navbar-inner">
 							<div class="container" style="width: auto;">
-								<a class="brand">民泰后台管理系统</a>
+								<a class="brand">青年志后台管理系统</a>
 							</div>
 						</div>
 					</div>
 					<form action="/admin/signin_do" method="post">
 						<fieldset>
 						<div class="control-group">
-						<label class="control-label" for="prependedInput">邮箱:</label>
+						<label class="control-label" for="prependedInput">用户名:</label>
 						<div class="controls">
 						<div class="input-prepend">
-						<span class="add-on"><i class="icon-large icon-user-1"></i></span><input class="input-xlarge-fluid" id="email" size="16" type="text" name="email" value="">
+						<span class="add-on"><i class="icon-large icon-user-1"></i></span><input class="input-xlarge-fluid" id="email" size="16" type="text" name="username" value="">
 						</div>
 						</div>
 						</div>

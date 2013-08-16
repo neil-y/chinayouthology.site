@@ -24,6 +24,13 @@ class Focus extends CI_Controller {
 		$this->load->view('admin/_footer');
 	}
 
+	public function del($report_id)
+	{
+		$this->Focus_Model->del($report_id);	
+		redirect("/admin/focus/");
+	}
+
+
 
 	public function update($id)
 	{
@@ -47,16 +54,16 @@ class Focus extends CI_Controller {
 	{
 
 		$title = $this->input->post("title");	
-		$focus_url = $this->input->post("focus_url");	
-		$status = $this->input->post("status");	
-		$status = ($status == 'yes') ? 1 : 0;
+		$url = $this->input->post("url");	
+		$type = $this->input->post('type');
+		$in_id = $this->input->post('in_id');
 
-		$config['upload_path'] = './uploads/focus/';
-		$config['allowed_types'] = 'gif|jpg|png';
-		$config['max_size'] = '10000';
-		$config['max_width']  = '966';
-		$config['max_height']  = '200';
-		$config['file_name']  = date('YmdHms');
+		$config['upload_path'] = './uploads/file/';
+		$config['allowed_types'] = 'gif|jpg|png|pdf|doc|docx|ppt|pptx';
+		$config['max_size'] = '0';
+		$config['max_width']  = '0';
+		$config['max_height']  = '0';
+		//$config['file_name']  = date('YmdHms');
 		  
 		$this->load->library('upload', $config);
 		 
@@ -70,10 +77,12 @@ class Focus extends CI_Controller {
 			  $data = array('upload_data' => $this->upload->data());
 			  $focus = array(
 				  'title' => $title,
-				  'focus_url' => $focus_url,
-				  'img_url' => $data['upload_data']['file_name'],
-				  'status' => $status,
-				  'createtime' => date("Y-m-d H:m:s")
+				  'url' => $url,
+				  'file_url' => $data['upload_data']['file_name'],
+				  'type' => intval($type),
+				  'status' => 1,
+				  'in_id' => $in_id, 
+				  'createtime' => date('Y-m-d H:m:s') 
 			  );
 			  $this->Focus_Model->save($focus);
 		}

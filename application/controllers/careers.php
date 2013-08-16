@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Careers extends CI_Controller {
 
 	public function __construct()
 	{
@@ -9,9 +9,9 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		$data['css'] = 'home';
-		$data['menu'] = 'home';
-		$this->load->view('index', $data);
+		$data['css'] = 'careers';
+		$data['menu'] = 'contact';
+		$this->load->view('careers', $data);
 	}
 
 }
